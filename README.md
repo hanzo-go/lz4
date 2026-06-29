@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="lz4" width="880"></p>
+
 # lz4 : LZ4 compression in pure Go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/pierrec/lz4/v4.svg)](https://pkg.go.dev/github.com/pierrec/lz4/v4)
