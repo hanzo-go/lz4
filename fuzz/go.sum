@@ -4,6 +4,8 @@ github.com/dvyukov/go-fuzz v0.0.0-20201115201419-0701ec3cea76 h1:2FjmcNOeX/oqxyY
 github.com/dvyukov/go-fuzz v0.0.0-20201115201419-0701ec3cea76/go.mod h1:11Gm+ccJnvAhCNLlf5+cS9KjtbaD5I5zaZpFMsTHWTw=
 github.com/elazarl/go-bindata-assetfs v1.0.1 h1:m0kkaHRKEu7tUIUFVwhGGGYClXvyl4RE03qmvRTNfbw=
 github.com/elazarl/go-bindata-assetfs v1.0.1/go.mod h1:v+YaWX3bdea5J/mo8dSETolEo7R71Vk1u8bnjau5yw4=
+github.com/hanzoai/lz4/v4 v4.1.22 h1:NjK1Umwaxb5lnoFB44iGPtGj58y/PLucNcCc2gE8q4I=
+github.com/hanzoai/lz4/v4 v4.1.22/go.mod h1:/iX6TGHL94Q9MkMmvHKKHlyopHn06RjEW7Bz3h6TJEk=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/robertkrimen/godocdown v0.0.0-20130622164427-0bfa04905481/go.mod h1:C9WhFzY47SzYBIvzFqSvHIR6ROgDo4TtdTuRaOMjF/s=
 github.com/stephens2424/writerset v1.0.2 h1:znRLgU6g8RS5euYRcy004XeE4W+Tu44kALzy7ghPif8=
