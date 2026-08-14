@@ -1,0 +1,26 @@
+name: ci
+# The suite this repo cares about is the four-way cross product of race detector
+# and the noasm build tag: the assembly and pure-Go decoders must agree.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: [hanzo-build-linux-amd64]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+      - run: go test ./...
+      - run: go test ./... -race
+      - run: go test ./... -tags noasm
+      - run: go test ./... -race -tags noasm
