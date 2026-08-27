@@ -6,7 +6,7 @@ import (
 	"hash/fnv"
 	"testing"
 
-	"github.com/hanzoai/lz4/v4/internal/xxh32"
+	"hanzo.ai/lz4/v4/internal/xxh32"
 )
 
 type test struct {

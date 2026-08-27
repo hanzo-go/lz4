@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hanzoai/lz4/v4"
-	"github.com/hanzoai/lz4/v4/internal/lz4block"
+	"hanzo.ai/lz4/v4"
+	"hanzo.ai/lz4/v4/internal/lz4block"
 )
 
 func TestWriter(t *testing.T) {

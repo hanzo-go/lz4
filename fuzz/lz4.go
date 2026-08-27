@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hanzoai/lz4/v4"
+	"hanzo.ai/lz4/v4"
 )
 
 // Fuzz function for the Reader and Writer.

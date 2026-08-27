@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hanzoai/lz4/v4/internal/lz4errors"
+	"hanzo.ai/lz4/v4/internal/lz4errors"
 )
 
 //go:generate go run golang.org/x/tools/cmd/stringer -type=aState -output state_gen.go
