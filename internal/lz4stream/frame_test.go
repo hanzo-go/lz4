@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hanzoai/lz4/v4/internal/lz4block"
+	"hanzo.ai/lz4/v4/internal/lz4block"
 )
 
 func TestFrameDescriptor(t *testing.T) {

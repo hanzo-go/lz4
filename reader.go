@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/hanzoai/lz4/v4/internal/lz4block"
-	"github.com/hanzoai/lz4/v4/internal/lz4errors"
-	"github.com/hanzoai/lz4/v4/internal/lz4stream"
+	"hanzo.ai/lz4/v4/internal/lz4block"
+	"hanzo.ai/lz4/v4/internal/lz4errors"
+	"hanzo.ai/lz4/v4/internal/lz4stream"
 )
 
 var readerStates = []aState{

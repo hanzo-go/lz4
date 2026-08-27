@@ -2,7 +2,7 @@
 
 package lz4stream
 
-import "github.com/hanzoai/lz4/v4/internal/lz4block"
+import "hanzo.ai/lz4/v4/internal/lz4block"
 
 // DescriptorFlags is defined as follow:
 //   field              bits

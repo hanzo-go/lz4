@@ -9,7 +9,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/hanzoai/lz4/v4/internal/lz4block"
+	"hanzo.ai/lz4/v4/internal/lz4block"
 	"github.com/pierrec/packer"
 	"golang.org/x/tools/imports"
 )

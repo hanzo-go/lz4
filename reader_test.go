@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hanzoai/lz4/v4"
+	"hanzo.ai/lz4/v4"
 )
 
 func _o(s ...lz4.Option) []lz4.Option {

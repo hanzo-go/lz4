@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hanzoai/lz4/v4"
+	"hanzo.ai/lz4/v4"
 )
 
 func TestCompressingReader(t *testing.T) {
