@@ -2,10 +2,8 @@
 
 # lz4 : LZ4 compression in pure Go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/pierrec/lz4/v4.svg)](https://pkg.go.dev/github.com/pierrec/lz4/v4)
-[![CI](https://github.com/pierrec/lz4/workflows/ci/badge.svg)](https://github.com/pierrec/lz4/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pierrec/lz4)](https://goreportcard.com/report/github.com/pierrec/lz4)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/pierrec/lz4.svg?style=social)](https://github.com/pierrec/lz4/tags)
+[![Go Reference](https://pkg.go.dev/badge/hanzo.ai/lz4/v4.svg)](https://pkg.go.dev/hanzo.ai/lz4/v4)
+[![CI](https://github.com/hanzo-go/lz4/actions/workflows/ci.yml/badge.svg)](https://github.com/hanzo-go/lz4/actions/workflows/ci.yml)
 
 ## Overview
 
@@ -17,37 +15,7 @@ The implementation is based on the reference C [one](https://github.com/lz4/lz4)
 Assuming you have the go toolchain installed:
 
 ```
-go get github.com/pierrec/lz4/v4
-```
-
-There is a command line interface tool to compress and decompress LZ4 files.
-
-```
-go install github.com/pierrec/lz4/v4/cmd/lz4c@latest
-```
-
-Usage
-
-```
-Usage of lz4c:
-  -version
-        print the program version
-
-Subcommands:
-Compress the given files or from stdin to stdout.
-compress [arguments] [<file name> ...]
-  -bc
-        enable block checksum
-  -l int
-        compression level (0=fastest)
-  -sc
-        disable stream checksum
-  -size string
-        block max size [64K,256K,1M,4M] (default "4M")
-
-Uncompress the given files or from stdin to stdout.
-uncompress [arguments] [<file name> ...]
-
+go get hanzo.ai/lz4/v4
 ```
 
 
