@@ -2,28 +2,28 @@
 
 # lz4 : LZ4 compression in pure Go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/pierrec/lz4/v4.svg)](https://pkg.go.dev/github.com/pierrec/lz4/v4)
-[![CI](https://github.com/pierrec/lz4/workflows/ci/badge.svg)](https://github.com/pierrec/lz4/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pierrec/lz4)](https://goreportcard.com/report/github.com/pierrec/lz4)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/pierrec/lz4.svg?style=social)](https://github.com/pierrec/lz4/tags)
+[![Go Reference](https://pkg.go.dev/badge/hanzo.ai/lz4/v4.svg)](https://pkg.go.dev/hanzo.ai/lz4/v4)
+[![CI](https://github.com/hanzo-go/lz4/workflows/ci/badge.svg)](https://github.com/hanzo-go/lz4/actions)
+[![Go Report Card](https://goreportcard.com/badge/hanzo.ai/lz4)](https://goreportcard.com/report/hanzo.ai/lz4)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/hanzo-go/lz4.svg?style=social)](https://github.com/hanzo-go/lz4/tags)
 
 ## Overview
 
 This package provides a streaming interface to [LZ4 data streams](http://fastcompression.blogspot.fr/2013/04/lz4-streaming-format-final.html) as well as low level compress and uncompress functions for LZ4 data blocks.
-The implementation is based on the reference C [one](https://github.com/lz4/lz4).
+The implementation is based on the reference C [one](https://github.com/hanzo-go/lz4).
 
 ## Install
 
 Assuming you have the go toolchain installed:
 
 ```
-go get github.com/pierrec/lz4/v4
+go get hanzo.ai/lz4/v4
 ```
 
 There is a command line interface tool to compress and decompress LZ4 files.
 
 ```
-go install github.com/pierrec/lz4/v4/cmd/lz4c@latest
+go install hanzo.ai/lz4/v4/cmd/lz4c@latest
 ```
 
 Usage
@@ -85,7 +85,7 @@ Contributions are very welcome for bug fixing, performance improvements...!
 
 ## Contributors
 
-Thanks to all [contributors](https://github.com/pierrec/lz4/graphs/contributors)  so far!
+Thanks to all [contributors](https://hanzo.ai/lz4/graphs/contributors)  so far!
 
 Special thanks to [@Zariel](https://github.com/Zariel) for his asm implementation of the decoder.
 
