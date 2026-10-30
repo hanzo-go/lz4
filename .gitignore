@@ -34,3 +34,4 @@ cmd/*/*exe
 .idea
 
 fuzz/*.zip
+.aider*
